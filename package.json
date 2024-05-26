@@ -1,0 +1,18 @@
+{
+  "name": "review-scrapper",
+  "version": "1.0.0",
+  "description": "Scrape product reviews from e-commerce mainly in Indonesia to be analyzed.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm --env-files=.env index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright-core": "^1.44.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.44.1"
+  }
+}
